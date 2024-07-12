@@ -1,0 +1,54 @@
+Astro Cactus:
+https://astro.build/themes/details/astro-cactus/
+
+Astro Landing Page
+https://astro.build/themes/details/astro-landing-page/
+
+Dante:
+https://astro.build/themes/details/dante/
+
+Astro Cube:
+https://astro.build/themes/details/astro-cube/
+
+Astro Enchanged Started (live does not wokr)
+https://astro.build/themes/details/enhanced-astro-starter/
+
+Aurora
+https://astro.build/themes/details/aurora/\
+
+
+Blogster JedXu
+https://astro.build/themes/details/blogster-jedxu/
+
+Fuwari
+https://astro.build/themes/details/fuwari/
+
+Typography
+https://astro.build/themes/details/typography/
+
+Koibumi Astro Blog
+https://astro.build/themes/details/koibumi-astro-blog/
+
+Minimal portfolio template
+https://astro.build/themes/details/minimal-portfolio-template/
+
+AstroSphere
+https://astro.build/themes/details/astrosphere/
+
+AstroNano
+https://astro.build/themes/details/astronano/
+
+Frosti
+https://astro.build/themes/details/frosti/
+
+Astro Micro
+https://astro.build/themes/details/astro-micro/
+
+AstroGaia
+https://astro.build/themes/details/astrogaia/
+
+Astro Blur
+https://astro.build/themes/details/astro-blur/
+
+Welcome to Astro
+https://astro.build/themes/details/welcome-to-astro/
