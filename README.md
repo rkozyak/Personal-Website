@@ -1,23 +1,2 @@
-## features
-
-
-## installation
-```
-
-### spin up local dev server
-
-```bash
-npm run dev
-```
-
-### build to `./dist/`
-
-```bash
-npm run build
-```
-
-### preview production build
-
-```bash
-npm run preview
-```
+## About
+This is a basic website that I'm currently making for personal use.
