@@ -14,8 +14,7 @@ Astro Enchanged Started (live does not wokr)
 https://astro.build/themes/details/enhanced-astro-starter/
 
 Aurora
-https://astro.build/themes/details/aurora/\
-
+https://astro.build/themes/details/aurora/
 
 Blogster JedXu
 https://astro.build/themes/details/blogster-jedxu/
