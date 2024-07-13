@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/projectLayout.astro
-title: "Project Title"
+title: "Adaptive Bias Lighting"
 date: 2024-07-01
 ---
 
