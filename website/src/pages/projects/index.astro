@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+const allPosts = await Astro.glob('./*.md');
 ---
 
 <Layout title="Projects">
@@ -10,17 +11,16 @@ import Layout from '../../layouts/Layout.astro';
     
         <article class="region prose wrapper">
           <ul role="list" class="flow features">
+            <h2>
+                {allPosts.map((post) => <h2><li><a href={post.url}>{post.frontmatter.title}</a></li></h2>)}
+            </h2>
+
             <li class="vertical-stack">
-
-                <!--List projects here -->
-                <h2><a href="/projects/website">Personal Website</a></h2>
-
-
               <h2><a href="/">Home</a></h2>
             </li>
+            
           </ul>
         </article>
-    
         <footer class="region prose wrapper">
         © 2024 | Richard Kozyak
         </footer>
