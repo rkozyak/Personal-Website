@@ -4,4 +4,4 @@ title: "Adaptive Bias Lighting"
 date: 2024-07-1
 ---
 
-This text is an example Project
+## This is a work in progress. More details will be posted soon :)
