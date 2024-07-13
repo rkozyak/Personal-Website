@@ -38,12 +38,6 @@
   margin-block-start: var(--flow-space, var(--space-xs));
 }
 
-
-
-
-
-
-
 .flex {
   display: flex;
   justify-content: flex-start; /* Align items to the left */
@@ -84,7 +78,7 @@
 
 .region {
   padding-top: var(--region-space, var(--space-l-xl));
-  padding-bottom: var(--region-space, var(--space-l-xl));
+  padding-bottom: var(--region-space, var(--space-l-xs));
 }
 
 .prose {
