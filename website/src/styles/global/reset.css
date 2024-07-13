@@ -17,6 +17,7 @@
 html,
 body {
   height: 100%;
+  margin: 0;
 }
 
 /* Set core root defaults */
@@ -37,6 +38,11 @@ body {
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
+}
+
+/*Footer */
+footer {
+  margin-top: auto; /* Pushes the footer to the bottom */
 }
 
 /* Anchor elements that don't have a class get default styles */
