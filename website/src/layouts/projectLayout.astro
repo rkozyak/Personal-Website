@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/Layout.astro';
+const { frontmatter } = Astro.props;
+---
+<BaseLayout pageTitle={frontmatter.title}>
+    <article class="region prose wrapper hero">
+        <h1 style="margin-bottom: var(--space-xs);">{frontmatter.title}</h1>
+        <div class="content">
+            <slot />
+        </div>
+    </article>
+</BaseLayout>
