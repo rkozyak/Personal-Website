@@ -8,8 +8,13 @@ import Layout from '../layouts/Layout.astro';
       <h1 style="margin-bottom: var(--space-xs);">Richard Kozyak</h1>
 
       <h2 style="margin-top: 0;">
-        Computer Science student at <a href="https://www.gatech.edu/">Georgia Tech</a> 
-      </h3>
+      <div id="typed-strings">
+        <h2> Computer Science Major at <a href="https://www.gatech.edu/">Georgia Tech</a> </p>
+        <h2> Studying Cybersecurity/Privacy and Info Internetworks</p>
+      </div>
+      <span id="typed"></span>
+      </h2>
+
     </article>
 
     <article class="region prose wrapper">
@@ -33,3 +38,14 @@ import Layout from '../layouts/Layout.astro';
     </footer>
   </main>
 </Layout>
+
+<script>
+  import Typed from "typed.js";
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 50,
+    backSpeed: 35, // Slower deleting speed
+    backDelay: 2000, // 5-second pause between texts
+    loop: true,
+  });
+</script>
