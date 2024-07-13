@@ -3,20 +3,22 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="About Me">
-    <main>
-      <article class="region prose wrapper hero">
-        <h1 style="margin-bottom: var(--space-xs);">About Me</h1>
-      </article>
+  <main>
+    <article class="region prose wrapper hero">
+      <h1 style="margin-bottom: var(--space-xs);">About Me</h1>
+    </article>
 
-      <article class="region prose wrapper">
-        <ul role="list" class="flow features">
-          <li class="flow">
-            <h3><a href="/">home</a></h3>
-          </li>
-        </article>
+    <article class="region prose wrapper">
+      <ul role="list" class="flow features">
+        <!-- Vertical stack-->
+        <li class="vertical-stack">
+          <h2><a href="/">Home</a></h2>
+        </li>
+      </ul>
+    </article>
 
-        <footer class="region prose wrapper">
-            © 2024 | Richard Kozyak</span>
-          </footer>
-    </main>
+    <footer class="region prose wrapper">
+      © 2024 | Richard Kozyak
+    </footer>
+  </main>
 </Layout>
