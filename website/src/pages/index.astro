@@ -5,28 +5,25 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Richard Kozyak">
   <main>
     <article class="region prose wrapper hero">
-      <h1 style="margin-bottom: var(--space-xs);">Richard Kozyak</h1>
+      <h1 style="margin-bottom: clamp(0.5rem, 2vw, 1rem);">Richard Kozyak</h1>
 
-      <h2 style="margin-top: 0;">
-      <div id="typed-strings">
-        <h2> Computer Science Major at <a href="https://www.gatech.edu/">Georgia Tech</a> </p>
-        <h2> Studying Cybersecurity/Privacy and Info Internetworks</p>
-      </div>
-      <span id="typed"></span>
+      <h2 class="major-title" style="margin-top: 0;">
+        <div id="typed-strings">
+          <h2>Computer Science Major at <a href="https://www.gatech.edu/">Georgia Tech</a></h2>
+          <h2>Studying Cybersecurity/Privacy and Info Internetworks</h2>
+        </div>
+        <span id="typed"></span>
       </h2>
-
     </article>
 
-    <article class="region prose wrapper">
+    <article class="region prose wrapper" style="margin-top: clamp(1rem, 5vw, 2rem);">
       <ul role="list" class="flex features">
         <li class="flex">
           <h3><a href="/about">about</a></h3>
         </li>
-
         <li class="flex">
           <h3><a href="/projects">projects</a></h3>
         </li>
-
         <li class="flex">
           <h3><a href="/socials">socials</a></h3>
         </li>
@@ -34,9 +31,15 @@ import Layout from '../layouts/Layout.astro';
     </article>
 
     <footer class="region prose wrapper">
-      © 2024 | Richard Kozyak</span>
+      © 2024 | Richard Kozyak
     </footer>
   </main>
+
+  <style>
+    .major-title {
+      min-height: clamp(3em, 5vh, 3em);
+    }
+  </style>
 </Layout>
 
 <script>

@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/projectLayout.astro
-title: "Project Title"
-date: 2024-07-01
+title: "Personal Website"
+date: 2024-07-13
 ---
 
 This text is an example Project
