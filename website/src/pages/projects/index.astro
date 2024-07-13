@@ -1,28 +1,28 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-const allPosts = await Astro.glob('./*.md');
+const allPosts = await Astro.glob('../../pages/projects/*.md');
 ---
 
 <Layout title="Projects">
-    <main>
-        <article class="region prose wrapper hero">
-          <h1 style="margin-bottom: var(--space-xs);">Projects</h1>
-        </article>
-    
-        <article class="region prose wrapper">
-          <ul role="list" class="flow features">
-            <h2>
-                {allPosts.map((post) => <h2><li><a href={post.url}>{post.frontmatter.title}</a></li></h2>)}
-            </h2>
+  <main>
+    <article class="region prose wrapper hero">
+      <h1 style="margin-bottom: var(--space-xs);">Projects</h1>
+    </article>
 
-            <li class="vertical-stack">
-              <h2><a href="/">Home</a></h2>
-            </li>
-            
-          </ul>
-        </article>
-        <footer class="region prose wrapper">
-        © 2024 | Richard Kozyak
-        </footer>
-      </main>
+    <article class="region prose wrapper">
+      <ul role="list" class="flow features">
+        {allPosts.map((post) => (
+          <li>
+            <h2><a href={post.url}>{post.frontmatter.title}</a></h2>
+          </li>
+        ))}
+        <li class="vertical-stack">
+          <h2><a href="/">Home</a></h2>
+        </li>
+      </ul>
+    </article>
+    <footer class="region prose wrapper">
+      © 2024 | Richard Kozyak
+    </footer>
+  </main>
 </Layout>
