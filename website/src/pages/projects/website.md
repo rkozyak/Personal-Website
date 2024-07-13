@@ -4,4 +4,4 @@ title: "Personal Website"
 date: 2024-07-13
 ---
 
-This text is an example Project
+## This is a work in progress. More details will be posted soon :)
