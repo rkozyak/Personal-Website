@@ -2,9 +2,36 @@
 
 /* TL;DR: Utility classes (yes, like Tailwind) */
 
-.flow > * + *,
+/* Existing styles for .flow */
+.flow {
+  display: flex; /* Use flexbox for horizontal alignment */
+  gap: var(--gutter, var(--space-s-m)); /* Space between items */
+  flex-wrap: wrap; /* Allow wrapping if necessary */
+  justify-content: flex-start; /* Align items to the left */
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .flow {
+    flex-direction: column; /* Stack vertically on smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
 .prose > * + * {
   margin-block-start: var(--flow-space, var(--space-s-m));
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  gap: var(--gutter, var(--space-s-m)); /* Space between items */
 }
 
 .prose :is(pre, pre + *, figure, figure + *, h2, h3, h4, h5, h6) {
