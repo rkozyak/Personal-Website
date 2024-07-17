@@ -4,11 +4,28 @@ title: "Adaptive Bias Lighting"
 date: 2024-07-1
 ---
 
-<video autoplay muted loop>
-  <source src="/videos/colorWheel.webm" type="video/webm">
-  <source src="/videos/colorWheel.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+<style>
+  .video-container {
+    text-align: center; 
+    padding: clamp(1rem, 2vw, 2rem); 
+  }
+  video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    max-width: clamp(300px, 50vw, 800px); /* Responsive width */
+  }
+</style>
+
+<div class="video-container">
+  <video autoplay muted loop>
+    <source src="/videos/colorWheel.webm" type="video/webm">
+    <source src="/videos/colorWheel.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 <br/><br/>
 
 ## **What is Bias lighting?**
@@ -38,9 +55,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit rhoncus 
 
 ## **Project Showcase**
 
-<video autoplay muted loop>
-  <source src="/videos/sports.webm" type="sports/webm">
-  <source src="/videos/sports.mp4" type="sports/mp4">
-  Your browser does not support the video tag.
-</video>
-<br/><br/>
+<div class="video-container">
+  <video autoplay muted loop>
+    <source src="/videos/sports.webm" type="video/webm">
+    <source src="/videos/sports.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
