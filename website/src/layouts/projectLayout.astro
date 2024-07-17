@@ -1,9 +1,10 @@
 ---
 import BaseLayout from '../layouts/Layout.astro';
-import SEO from './SEO.astro';
+import SEO from '../SEO.astro';
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
+    <SEO title={frontmatter.title} />
     <article class="region prose wrapper hero">
         <h1 style="margin-bottom: var(--space-xs);">{frontmatter.title}</h1>
         <div class="content">
@@ -14,5 +15,4 @@ const { frontmatter } = Astro.props;
             <p><a href="/projects">Other Projects</a></p>
         </footer>
     </article>
-    
 </BaseLayout>
