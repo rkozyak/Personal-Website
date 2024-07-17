@@ -4,7 +4,6 @@ title: "Adaptive Bias Lighting"
 date: 2024-07-1
 ---
 
-
 <style>
   .video-container {
     text-align: center; 
@@ -20,13 +19,12 @@ date: 2024-07-1
 </style>
 
 <div class="video-container">
-  <video autoplay muted loop>
+  <video autoplay muted loop playsinline>
     <source src="/videos/colorWheel.webm" type="video/webm">
     <source src="/videos/colorWheel.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
-<br/><br/>
 
 ## **What is Bias lighting?**
 Bias lighting refers to the placement of a light source behind a TV or a computer monitor to light up the surface behind the screen and to create a soft glow around it. This soft light actually helps not only improve the quality of what you are watching but also helps reduce strain on your eye, especially if you are in a dark room. Your eyes see the screen as incredibly bright but they don't adjust to the brightness of the screen but instead to the average brightness of what you see. This kind of lighting reduces eye strain by decreasing the contract between the bright screen and the dark surrounding room without having any of the problems that occur when turning on the light in the room such as glare on the screen.  
@@ -56,7 +54,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit rhoncus 
 ## **Project Showcase**
 
 <div class="video-container">
-  <video autoplay muted loop>
+  <video autoplay muted loop playsinline>
     <source src="/videos/sports.webm" type="video/webm">
     <source src="/videos/sports.mp4" type="video/mp4">
     Your browser does not support the video tag.
