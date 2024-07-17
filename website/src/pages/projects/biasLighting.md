@@ -4,7 +4,11 @@ title: "Adaptive Bias Lighting"
 date: 2024-07-1
 ---
 
-![RGB Wheel Video](/videos/colorWheel.mp4)
+<video autoplay muted loop>
+  <source src="/videos/colorWheel.webm" type="video/webm">
+  <source src="/videos/colorWheel.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 <br/><br/>
 
 ## **What is Bias lighting?**
@@ -34,4 +38,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit rhoncus 
 
 ## **Project Showcase**
 
-![Sports Example Video](/videos/sports.mp4)
+<video autoplay muted loop>
+  <source src="/videos/sports.webm" type="sports/webm">
+  <source src="/videos/sports.mp4" type="sports/mp4">
+  Your browser does not support the video tag.
+</video>
+<br/><br/>
