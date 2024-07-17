@@ -31,6 +31,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit rhoncus 
 <br/><br/>
 
 # Showcase of Setup
-![RGB Wheel Video](/videos/colorWheel.MOV)
+![RGB Wheel Video](/videos/colorWheel.mp4)
 
-![Sports Example Video](/videos/sports.MOV)
+![Sports Example Video](/videos/sports.mp4)
