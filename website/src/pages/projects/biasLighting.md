@@ -14,7 +14,7 @@ date: 2024-07-1
     margin: 0 auto;
     width: 100%;
     height: auto;
-    max-width: clamp(300px, 50vw, 800px); /* Responsive width */
+    max-width: clamp(300px, 50vw, 800px);
   }
 </style>
 
