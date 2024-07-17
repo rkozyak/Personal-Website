@@ -32,6 +32,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit rhoncus 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit rhoncus lorem id iaculis. Pellentesque ultrices sapien ipsum, suscipit tristique eros dictum sit amet. Suspendisse eget sapien sit amet nisi dapibus mollis et non quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eget bibendum risus. In sed ullamcorper ipsum. Curabitur semper tempor dolor nec lobortis. Nunc neque mi, dictum et eleifend sed, consequat vel ligula. Nullam at nibh a erat tempor lacinia vel vel orci. Aenean convallis cursus urna non euismod. Nullam id consequat ligula. Curabitur dignissim efficitur dictum. Maecenas sed condimentum ex.
 <br/><br/>
 
-## **Showcase of Setup**
+## **Project Showcase**
 
 ![Sports Example Video](/videos/sports.mp4)
