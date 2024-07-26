@@ -176,6 +176,16 @@ pre {
   border-radius: var(--border-radius-sm);
 }
 
-footer {
-  margin-top: auto;
+.footer {
+  margin-bottom: var(--space-lg);
+  text-align: left;
+  padding-left: 0;
+}
+
+.footer p {
+  margin-bottom: var(--space-lg); 
+}
+
+.region.prose.wrapper.footer {
+  padding-left: 0;
 }

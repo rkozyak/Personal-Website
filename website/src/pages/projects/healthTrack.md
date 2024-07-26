@@ -11,4 +11,6 @@ HealthTrack is a app I worked on in a team of 6 people. It's designed to help pe
 More information can be found by visiting the app's offical wesbite found by clicking the link below:
 <br/><br/>
 
-**<a href="https://rkozyak.github.io/CS2340A_Team6/">HealthTrack Website</a>**
+<p style="text-align: center; font-weight: bold;">
+  <a href="https://rkozyak.github.io/CS2340A_Team6/">HealthTrack Website</a>
+</p>
