@@ -34,5 +34,5 @@ More information can be found by visiting the app's official website found by cl
 <br/><br/>
 
 <p style="text-align: center; font-weight: bold;">
-  <a href="https://rkozyak.github.io/CS2340A_Team6/">HealthTrack Website</a>
+  <u><a href="https://rkozyak.github.io/CS2340A_Team6/">HealthTrack Website</a><u>
 </p>
