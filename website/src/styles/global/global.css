@@ -189,3 +189,24 @@ pre {
 .region.prose.wrapper.footer {
   padding-left: 0;
 }
+
+table {
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: clamp(5px, 1vw, 10px); /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-top: clamp(1rem, 1vw, 1rem);
+}
+
+.pc-specs {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+.server-specs {
+  margin-top: 2rem;
+}
