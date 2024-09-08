@@ -1,0 +1,120 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="PC Specs">
+  <main>
+    <article class="region prose wrapper hero">
+      <h1 style="margin-bottom: var(--space-xxs);">PC Specs</h1>
+    </article>
+
+    <article class="region prose wrapper">
+      <!-- Gaming PC section -->
+      <div class="pc-specs grid-2">
+        <div class="specs">
+          <h2><a href="https://pcpartpicker.com/user/rkozyak/saved/WYYFXL">Main PC</a></h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>Case</td>
+                <td>Fractal Design North</td>
+              </tr>
+              <tr>
+                <td>CPU</td>
+                <td>Intel Core i7-14700k</td>
+              </tr>
+              <tr>
+                <td>OS</td>
+                <td>Windows 11 Pro</td>
+              </tr>
+              <tr>
+                <td>Motherboard</td>
+                <td>Asus ROG Strix Z690-E Gaming</td>
+              </tr>
+              <tr>
+                <td>CPU Cooler</td>
+                <td>Arctic Liquid Freezer III 360mm AIO</td>
+              </tr>
+              <tr>
+                <td>Memory</td>
+                <td>64 GB G.Skill Trident Z RGB DDR5-6000 CL30</td>
+              </tr>
+              <tr>
+                <td>GPU</td>
+                <td>EVGA 3090 Ti FTW3 Ultra Gaming</td>
+              </tr>
+              <tr>
+                <td>PSU</td>
+                <td>MAINGEAR Ignition 1200 Watt</td>
+              </tr>
+              <!-- Add more rows as needed -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Server section -->
+      <div class="server-specs grid-2">
+        <div class="specs">
+            <h2><a href="https://pcpartpicker.com/user/rkozyak/saved/CBLnGX">Server</a></h2>
+            <table>
+              <tbody>
+                <tr>
+                  <td>Case</td>
+                  <td>Fractal Design Meshify 2</td>
+                </tr>
+                <tr>
+                  <td>CPU</td>
+                  <td>Intel Core i7-12700k</td>
+                </tr>
+                <tr>
+                  <td>OS</td>
+                  <td>Unraid OS</td>
+                </tr>
+                <tr>
+                  <td>Motherboard</td>
+                  <td>MSI Pro Z690-A DDR4</td>
+                </tr>
+                <tr>
+                  <td>CPU Cooler</td>
+                  <td>DeepCool LT720 360mm AIO</td>
+                </tr>
+                <tr>
+                  <td>Memory</td>
+                  <td>64 GB G.Skill Trident Z RGB DDR4-3200 CL14</td>
+                </tr>
+                <tr>
+                  <td>PSU</td>
+                  <td>PowerSpec 1050 Watt</td>
+                </tr>
+            <!-- Drive Stuff Me -->
+              <tr>
+                <td>Data Drives </td>
+                <td>WD Ultrastar HC550 18 TB</td>
+              </tr>
+              <tr>
+                <td>Parity Drive</td>
+                <td>WD Ultrastar HC550 18 TB</td>
+              </tr>
+              <tr>
+                <td>Cache</td>
+                <td>Samsung 980 1 TB</td>
+              </tr>
+              <tr>
+                <td>Cache Backup</td>
+                <td>Samsung 970 Evo Plus 1 TB</td>
+              </tr>
+            <!-- End of Drive Stuff -->
+                <!-- Add more rows as needed -->
+              </tbody>
+            </table>
+          </div>
+      </div>
+      <h2><a href="/">Home</a></h2>
+    </article>
+
+    <footer class="region prose wrapper">
+      © 2024 | Richard Kozyak
+    </footer>
+  </main>
+</Layout>
